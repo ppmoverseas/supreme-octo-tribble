@@ -5,37 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PPM Overseas LLC</title>
     <style>
-     	.line {
-            text-align: center;
-            margin: 10px 0;
+        body, html {
+            height: 100%; /* Make body and html take up full viewport height */
+            margin: 0;   /* Remove default margins */
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Horizontally center content */
+            align-items: center;     /* Vertically center content */
+            background-color: #f0f0f0; /* Optional background color */
         }
-        .line1 { font-size: 12px; color: purple; }
-        .line2 { font-size: 14px; color: blue; }
-        .line3 { font-size: 16px; color: black; }
-        .line4 { font-size: 18px; color: purple; }
-        .line5 { font-size: 20px; color: orange; }
-        .line6 { font-size: 22px; color: pink; }
-        .line7 { font-size: 24px; color: brown; }
-        .line8 { font-size: 26px; color: black; }
-        .line9 { font-size: 28px; color: teal; }
+
+        img {
+            max-width: 90%; /* Limit image width to 90% of viewport */
+            max-height: 90%; /* Limit image height to 90% of viewport */
+            display: block;  /* Prevents a small space below the image */
+        }
     </style>
-	<style>
-    body {
-      background-color: #3498db; /* Light blue color */
-      color: white; /* Text color for contrast */
-    }
-  </style>
 </head>
 <body>
-    
-    <div class="line line1">The Site is Under Maintenance</div>
-    <div class="line line2">For more information, Please contact:</div>
-    <div class="line line3">Mr. Vince Alan</div>
-    <div class="line line4">Sales Director</div>
-    <div class="line line5">PPM Overseas LLC</div>
-    <div class="line line6">4636 Sorrento Park Ct</div>
-    <div class="line line7">Fremont, CA - 94538 - USA</div>
-    <div class="line line8">+1 719 321 8449</div>
-    <div class="line line9">sales@ppmoverseas.com</div>
-	</body>
+
+    <img src="img/image1.jpg" alt="Your Image">
+
+</body>
 </html>
